@@ -1,7 +1,8 @@
 source "https://rubygems.org"
+    
+gem "jekflix"
+gem "jekyll-paginate-v2", "~> 3.0"
 
-gem "kramdown", "~> 2.3.0"
-gem "rouge", "~> 3.26.0"
-gem "jekyll", "~> 4.2.0"
-gem "jekyll-paginate-v2", "~> 1.1.0"
-gem "json", "~> 2.5.0"
+gem "kramdown-parser-gfm", "~> 1.1"
+
+gem "webrick", "~> 1.8"
